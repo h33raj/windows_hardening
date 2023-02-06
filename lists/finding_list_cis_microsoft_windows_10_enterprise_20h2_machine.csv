@@ -36,7 +36,7 @@ ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Names
 2.2.25,"User Rights Assignment","Increase scheduling priority",accesschk,SeIncreaseBasePriorityPrivilege,,,,,,"Window Manager\Window Manager Group;BUILTIN\Administrators","Window Manager\Window Manager Group;BUILTIN\Administrators",=,Medium
 2.2.26,"User Rights Assignment","Load and unload device drivers",accesschk,SeLoadDriverPrivilege,,,,,,BUILTIN\Administrators,BUILTIN\Administrators,=,Medium
 2.2.27,"User Rights Assignment","Lock pages in memory",accesschk,SeLockMemoryPrivilege,,,,,,,,=,Medium
-2.2.28,"User Rights Assignment","Log on as a batch job",accesschk,SeBatchLogonRight,,,,,,"BUILTIN\Performance Log Users;BUILTIN\Backup Operators;BUILTIN\Administrators","BUILTIN\Administrators;Users\gaia",=,Medium
+2.2.28,"User Rights Assignment","Log on as a batch job",accesschk,SeBatchLogonRight,,,,,,"BUILTIN\Performance Log Users;BUILTIN\Backup Operators;BUILTIN\Administrators","BUILTIN\Administrators;BUILTIN\Users",=,Medium
 2.2.29.1,"User Rights Assignment","Log on as a service",accesschk,SeServiceLogonRight,,,,,,"NT SERVICE\ALL SERVICES;NT AUTHORITY\NETWORK SERVICE",,=,Medium
 2.2.29.2,"User Rights Assignment","Log on as a service (Hyper-V)",accesschk,SeServiceLogonRight,,,,,,"S-1-5-83-0;NT SERVICE\ALL SERVICES;NT AUTHORITY\NETWORK SERVICE","NT VIRTUAL MACHINE\Virtual Machines",=,Medium
 2.2.30,"User Rights Assignment","Manage auditing and security log",accesschk,SeSecurityPrivilege,,,,,,BUILTIN\Administrators,BUILTIN\Administrators,=,Medium
