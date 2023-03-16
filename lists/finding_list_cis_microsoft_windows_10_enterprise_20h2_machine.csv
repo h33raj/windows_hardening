@@ -123,8 +123,8 @@ ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Names
 5.8.2,"System Services","Internet Connection Sharing (ICS) (SharedAccess) (Service Startup type)",service,SharedAccess,,,,,,Manual,Disabled,=,Medium
 5.9.1,"System Services","Link-Layer Topology Discovery Mapper (lltdsvc)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\lltdsvc,Start,,,,3,4,=,Medium
 5.9.2,"System Services","Link-Layer Topology Discovery Mapper (lltdsvc) (Service Startup type)",service,lltdsvc,,,,,,Manual,Disabled,=,Medium
-5.10.1,"System Services","LxssManager (LxssManager)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\LxssManager,Start,,,,"",4,=|0,Medium
-5.10.2,"System Services","LxssManager (LxssManager) (Service Startup type)",service,LxssManager,,,,,,,Disabled,=|0,Medium
+5.10.1,"System Services","LxssManager (LxssManager)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\LxssManager,Start,,,,"",3,=|0,Medium
+5.10.2,"System Services","LxssManager (LxssManager) (Service Startup type)",service,LxssManager,,,,,,,Manual,=|0,Medium
 5.11.1,"System Services","Microsoft FTP Service (FTPSVC)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\FTPSVC,Start,,,,,4,=|0,Medium
 5.11.2,"System Services","Microsoft FTP Service (FTPSVC) (Service Startup type)",service,FTPSVC,,,,,,"",Disabled,=|0,Medium
 5.12.1,"System Services","Microsoft iSCSI Initiator Service (MSiSCSI)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\MSiSCSI,Start,,,,3,4,=,Medium
