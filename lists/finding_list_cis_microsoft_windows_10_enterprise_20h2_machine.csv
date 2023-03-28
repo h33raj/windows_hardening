@@ -105,10 +105,10 @@ ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Names
 2.3.17.6,"Security Options","User Account Control: Run all administrators in Admin Approval Mode",Registry,,HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableLUA,,,,1,1,=,Medium
 2.3.17.7,"Security Options","User Account Control: Switch to the secure desktop when prompting for elevation",Registry,,HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,PromptOnSecureDesktop,,,,1,1,=,Medium
 2.3.17.8,"Security Options","User Account Control: Virtualize file and registry write failures to per-user locations",Registry,,HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,EnableVirtualization,,,,1,1,=,Medium
-5.1.1,"System Services","Bluetooth Audio Gateway Service (BTAGService)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\BTAGService,Start,,,,3,4,=,Medium
-5.1.2,"System Services","Bluetooth Audio Gateway Service (BTAGService) (Service Startup type)",service,BTAGService,,,,,,Manual,Disabled,=,Medium
-5.2.1,"System Services","Bluetooth Support Service (bthserv)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\bthserv,Start,,,,3,4,=,Medium
-5.2.2,"System Services","Bluetooth Support Service (bthserv) (Service Startup type)",service,bthserv,,,,,,Manual,Disabled,=|0,Medium
+5.1.1,"System Services","Bluetooth Audio Gateway Service (BTAGService)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\BTAGService,Start,,,,3,3,=,Medium
+5.1.2,"System Services","Bluetooth Audio Gateway Service (BTAGService) (Service Startup type)",service,BTAGService,,,,,,Manual,Manual,=,Medium
+5.2.1,"System Services","Bluetooth Support Service (bthserv)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\bthserv,Start,,,,3,3,=,Medium
+5.2.2,"System Services","Bluetooth Support Service (bthserv) (Service Startup type)",service,bthserv,,,,,,Manual,Manual,=|0,Medium
 5.3.1,"System Services","Computer Browser (Browser)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\Browser,Start,,,,,4,=|0,Medium
 5.3.2,"System Services","Computer Browser (Browser) (Service Startup type) (!Check for false positive for service ""bowser""!)",service,Browser,,,,,,Manual,Disabled,=|0,Medium
 5.4.1,"System Services","Downloaded Maps Manager (MapsBroker)",Registry,,HKLM:\SYSTEM\CurrentControlSet\Services\MapsBroker,Start,,,,2,4,=,Medium
