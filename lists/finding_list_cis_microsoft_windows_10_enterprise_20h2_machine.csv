@@ -1,5 +1,4 @@
 ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
-1.1.1,"Account Policies","Length of password history maintained",accountpolicy,,,,,,,None,24,>=,Low
 1.1.7,"Account Policies","Store passwords using reversible encryption",secedit,"System Access\ClearTextPassword",,,,,,0,0,=,High
 1.2.1,"Account Policies","Account lockout duration",accountpolicy,,,,,,,30,15,>=,Low
 1.2.2,"Account Policies","Account lockout threshold",accountpolicy,,,,,,,Never,10,<=!0,Low
