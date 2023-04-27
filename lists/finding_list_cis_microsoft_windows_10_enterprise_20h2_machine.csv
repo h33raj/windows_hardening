@@ -1,8 +1,4 @@
 ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
-1.1.7,"Account Policies","Store passwords using reversible encryption",secedit,"System Access\ClearTextPassword",,,,,,0,0,=,High
-1.2.1,"Account Policies","Account lockout duration",accountpolicy,,,,,,,30,15,>=,Low
-1.2.2,"Account Policies","Account lockout threshold",accountpolicy,,,,,,,Never,10,<=!0,Low
-1.2.3,"Account Policies","Reset account lockout counter",accountpolicy,,,,,,,30,15,>=,Low
 2.2.1,"User Rights Assignment","Access Credential Manager as a trusted caller",accesschk,SeTrustedCredManAccessPrivilege,,,,,,,,=,Medium
 2.2.2,"User Rights Assignment","Access this computer from the network",accesschk,SeNetworkLogonRight,,,,,,"BUILTIN\Backup Operators;BUILTIN\Users;BUILTIN\Administrators;Everyone","BUILTIN\Remote Desktop Users;BUILTIN\Administrators",=,Medium
 2.2.3,"User Rights Assignment","Act as part of the operating system",accesschk,SeTcbPrivilege,,,,,,,,=,Medium
